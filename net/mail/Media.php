@@ -11,7 +11,7 @@ use lithium\core\Libraries;
  * configuring how the framework handles output in different formats for
  * rendering emails.
  */
-class Media extends \lithium\core\StaticObject {
+class Media extends \lithium\core\StaticObjectDeprecated {
 	/**
 	 * Maps file extensions to content-types.  Used to render content into
 	 * message. Can be modified with `Media::type()`.

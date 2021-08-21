@@ -2,7 +2,7 @@
 
 namespace li3_mailer\template\mail\adapter;
 
-use lithium\core\Object;
+use lithium\core\ObjectDeprecated;
 use RuntimeException;
 use lithium\core\Libraries;
 use lithium\core\ClassNotFoundException;
@@ -92,7 +92,7 @@ class File extends \lithium\template\view\adapter\File {
 	 * @return void
 	 */
 	protected function _init() {
-		Object::_init();
+		ObjectDeprecated::_init();
 
 		$classes =& $this->_classes;
 		$message =& $this->_message;

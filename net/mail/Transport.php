@@ -11,7 +11,7 @@ namespace li3_mailer\net\mail;
  * @see li3_mailer\net\mail\transport\adapter\Swift
  * @see li3_mailer\net\mail\transport\adapter\Mailgun
  */
-abstract class Transport extends \lithium\core\Object {
+abstract class Transport extends \lithium\core\ObjectDeprecated {
 	/**
 	 * Deliver a message.
 	 *

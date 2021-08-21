@@ -15,7 +15,7 @@ use BadMethodCallException;
  * @see li3_mailer\net\mail\Delivery
  * @see li3_mailer\action\Mailer::deliver()
  */
-class Mailer extends \lithium\core\StaticObject {
+class Mailer extends \lithium\core\StaticObjectDeprecated {
 
 	/**
 	 * Holds extra configurations per message (and a default

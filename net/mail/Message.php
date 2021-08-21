@@ -10,7 +10,7 @@ use lithium\action\Request;
  *
  * @see http://tools.ietf.org/html/rfc2822
  */
-class Message extends \lithium\core\Object {
+class Message extends \lithium\core\ObjectDeprecated {
 	/**
 	 * Subject.
 	 *
